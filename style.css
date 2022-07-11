@@ -1,0 +1,43 @@
+img {
+    height: 30px;
+}
+
+i {
+    font-size: 1.2rem;
+    margin-right: .07rem;
+}
+
+.user-icon {
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+
+i.fa-solid.fa-user-large {
+    display: block;
+}
+
+.link-navigazione {
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+.link-navigazione a {
+    text-decoration: none;
+    color: black;
+    opacity: 75%;
+    margin-right: 2rem;
+}
+
+.link-navigazione a:focus {
+    opacity: 100%;
+    color: #3367d6;
+    border-bottom: 2px solid #3367d6;
+    padding-bottom: .6rem;
+}
+

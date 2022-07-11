@@ -99,7 +99,7 @@ $listaFaq = [
 
     </header>
 
-    <main class="pt-5">
+    <main class="pt-5 pb-4">
         <div class="container">
 
         <?php foreach ($listaFaq as $domanda) : ?>
@@ -122,12 +122,33 @@ $listaFaq = [
                     } ?>
 
                 <?php } ?>
-
-                
         <?php endforeach ?>
 
         </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <div class="d-flex justify-content-between">
+                <ul class="list-unstyled d-flex mb-0">
+                    <li>Google</li>
+                    <li>•</li>
+                    <li>Tutto su Google</li>
+                    <li>•</li>
+                    <li>Privacy</li>
+                    <li>•</li>
+                    <li>Termini</li>
+                </ul>
+                
+                <select>
+                    <option value="1">Italiano</option>
+                    <option value="1">Inglese</option>
+                    <option value="1">Tedesco</option>
+                </select>
+
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>

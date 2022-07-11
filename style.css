@@ -43,10 +43,27 @@ i.fa-solid.fa-user-large {
 
 p, ol li {
     font-size: .9rem;
+    line-height: 25px;
 }
 
 .fa-solid.fa-arrow-up-right-from-square {
     font-size: .8rem;
     color: #3367d6;
     margin-left: .2rem;
+}
+
+footer {
+    background-color: #F5F5F5;
+    border-top: 1px solid rgb(228, 228, 228);
+    padding: 1rem;
+}
+
+footer ul li {
+    font-size: .7rem;
+    opacity: 50%;
+    padding: .2rem;
+}
+
+footer select {
+    width: 15%;
 }

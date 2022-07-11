@@ -44,3 +44,9 @@ i.fa-solid.fa-user-large {
 p, ol li {
     font-size: .9rem;
 }
+
+.fa-solid.fa-arrow-up-right-from-square {
+    font-size: .8rem;
+    color: #3367d6;
+    margin-left: .2rem;
+}

@@ -41,3 +41,6 @@ i.fa-solid.fa-user-large {
     padding-bottom: .6rem;
 }
 
+p, ol li {
+    font-size: .9rem;
+}
